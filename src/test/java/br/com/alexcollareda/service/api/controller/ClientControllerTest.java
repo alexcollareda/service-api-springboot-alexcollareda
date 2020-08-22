@@ -29,9 +29,6 @@ public class ClientControllerTest extends AbstractTest {
 		client.setClientAddress(ca);
 
 		String inputJson = super.mapToJson(client);
-		System.out.println(mvc);
-		System.out.println(uri);
-		System.out.println(inputJson);
 		MvcResult mvcResult = mvc.perform(
 				MockMvcRequestBuilders.post(uri).contentType(MediaType.APPLICATION_JSON_VALUE).content(inputJson))
 				.andReturn();
