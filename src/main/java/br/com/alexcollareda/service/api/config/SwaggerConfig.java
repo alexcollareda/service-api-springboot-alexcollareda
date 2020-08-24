@@ -28,7 +28,7 @@ public class SwaggerConfig {
 	private ApiInfo apiInfo() {
 		return new ApiInfoBuilder().title("Simple Spring Boot REST API").description("\"Collareda Rest API\"").version("1.0.0")
 				.license("Apache License Version 2.0").licenseUrl("https://www.apache.org/licenses/LICENSE-2.0\"")
-				.contact(new Contact("Collareda", "Alex", "alex.collareda@hotmail.com")).build();
+				.contact(new Contact("Alex Michelim Collareda", "http://api.whatsapp.com/send?1=pt_BR&phone=5565999713690", "alex.collareda@hotmail.com")).build();
 	}
 
 }
